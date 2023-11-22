@@ -1,7 +1,7 @@
 # TakeUsers
 Simple Angular App with a Json serve Backeng. For practice.
 
-# FrontEND Requirements
+# Frontend Requirements
 
 ```
 # navigate to the TakeUsers folder
