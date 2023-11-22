@@ -21,9 +21,9 @@ export class ApiServiceService {
     return this.http.get<any[]>(`${this.apiUrl}`);
   }
 
-  updateUser(user: any): Observable<any> {
-    return this.http.put<any>(`${this.apiUrl}/${user.id}`, user,this.httpOptions);
-  }
+  // updateUser(user: any): Observable<any> {
+  //   return this.http.put<any>(`${this.apiUrl}/${user.id}`, user,this.httpOptions);
+  // }
 
   addUser(user: any): Observable<any> {
       return this.http.post<any>(`${this.apiUrl}`,user,this.httpOptions)

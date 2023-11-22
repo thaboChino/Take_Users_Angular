@@ -20,7 +20,7 @@ export class CountUsersComponent {
     }
 
     getAllUsers(){
-      
+       
     }
 
 }
