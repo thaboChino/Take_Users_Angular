@@ -13,6 +13,9 @@ ng serve --proxy-config proxy.config.json
 # Backend Requirements
 ```
 NB: MAKE SURE YOU'RE NOT IN THE FRONTEND FOLDER 'TAKEUSER/'
+#Open new terminal in vscode
+#An if you are inside TakeUsers/ folder run:
+cd ..
 
 # Install JSON Server Globally
 npm install -g json-server
