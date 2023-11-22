@@ -1,0 +1,17 @@
+{
+    "users":[
+            {
+                "id":1,
+                "first_name": "Tshepiso1",
+                "last_name": "Ncosane",
+                "email": "tshepiso@gmail.com"
+            },
+            {
+                "id":2,
+                "first_name": "Tshepiso2",
+                "last_name": "Ncosane",
+                "email": "tshepiso@gmail.com"
+            }
+        ]
+    
+}
