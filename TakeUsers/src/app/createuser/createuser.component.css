@@ -1,0 +1,38 @@
+p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input{
+    height: 1.5em;
+    padding: 0.5em;
+}
+
+#submit{
+    width: 8em;
+    padding: 0.5em;
+    background-color: rgb(238, 128, 128);
+    color: white;
+    border-radius: 2em;
+}
+
+
+#names{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
