@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
+import { Observable, Subject, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 
 
@@ -10,6 +10,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 export class ApiServiceService {
 
   private apiUrl = 'http://localhost:3000/api/users';
+  private userAddedSubject = new Subject<any>();
 
   constructor(private http: HttpClient) {}
 
@@ -27,12 +28,17 @@ export class ApiServiceService {
 
   addUser(user: any): Observable<any> {
       return this.http.post<any>(`${this.apiUrl}`,user,this.httpOptions)
-             .pipe(tap((newUser: any) => console.log(`added user:${newUser.first_name}`)),
+             .pipe(tap((newUser: any) => // Emit an event when a user is added
+                                        this.userAddedSubject.next(newUser)),
              catchError(this.handleError<any>('addUserError')));;
 
     
   }
 
+  // Observable to subscribe to user added events
+  onUserAdded(): Observable<any> {
+    return this.userAddedSubject.asObservable();
+  }
 
 
   private handleError<T>(operation = 'operation', result?: T) {

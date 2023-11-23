@@ -1,25 +1,25 @@
-<p>Create User</p>
 
-<form #myForm="ngForm" (ngSubmit)="onSubmit()">
+<div id="create_count">
+        <p>Create User</p>
 
-    <div id="names">
-        <div class="holder inNames">
-            <label for="name">First Name</label>
-            <input type="text" id="name" class="inNames"  name="name" placeholder="First Name" [(ngModel)]="formData.first_name" required>
-        </div>
+        <form #myForm="ngForm" (ngSubmit)="onSubmit()">
 
-        <div class="holder inNames">
-            <label for="name">Last Name</label>
-            <input type="text" id="name" class="inNames" name="name" placeholder="Last Name" [(ngModel)]="formData.last_name" required>
-        </div>
+            <div id="names">
+                <div class="holder inNames">
+                    <label for="name">First Name</label>
+                    <input type="text" id="firstname" class="inNames"  name="name" placeholder="First Name" [(ngModel)]="formData.first_name" required>
+                </div>
 
-        <div id="email" class="holder">
-            <label for="email">Email</label>
-            <input type="email" id="emailInput" class="inNames" name="email" placeholder="Email" [(ngModel)]="formData.email" required>
-        </div>
-    </div>
+                <div class="holder inNames">
+                    <label for="name">Last Name</label>
+                    <input type="text" id="lastname" class="inNames" name="name" placeholder="Last Name" [(ngModel)]="formData.last_name" required>
+                </div>
 
-    
-  
-    <button type="submit" id="submit">Submit</button>
-</form>
+                <div id="email" class="holder">
+                    <label for="email">Email</label>
+                    <input type="email" id="emailInput" class="inNames" name="email" placeholder="Email" [(ngModel)]="formData.email" required>
+                </div>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+</div>

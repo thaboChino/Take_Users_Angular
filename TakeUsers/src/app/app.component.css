@@ -3,5 +3,11 @@
     background-color: blueviolet;
     color: white;
     text-align: center;
+    font-size: xxx-large;
 }
 
+#display-board{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}

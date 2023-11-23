@@ -1,46 +1,22 @@
 {
   "users": [
     {
-      "id": 1,
-      "first_name": "Tshepiso1",
-      "last_name": "Ncosane",
-      "email": "tshepiso@gmail.com"
-    },
-    {
-      "id": 2,
-      "first_name": "Tshepiso2",
-      "last_name": "Ncosane",
-      "email": "tshepiso@gmail.com"
-    },
-    {
-      "first_name": "Tshepiso3",
-      "last_name": "Ncosane",
-      "email": "tshepiso@gmail.com",
-      "id": 3
-    },
-    {
-      "first_name": "TG",
-      "last_name": "SEFATSA",
-      "email": "sefatsathabang2003@gmail.com",
-      "id": 5
-    },
-    {
-      "first_name": "Tshepisoqwds",
-      "last_name": "qwd",
-      "email": "wd",
-      "id": 6
-    },
-    {
-      "first_name": "Mizo",
+      "first_name": "Tshepiso",
       "last_name": "Ncosane",
       "email": "Ncosanetshepiso@gmail.com",
-      "id": 7
+      "id": 1
     },
     {
-      "first_name": "Michadvf",
+      "first_name": "SunnyBoy",
       "last_name": "SEFATSA",
       "email": "sefatsathabang2003@gmail.com",
-      "id": 8
+      "id": 2
+    },
+    {
+      "first_name": "The Butcher",
+      "last_name": "Ncosane",
+      "email": "Ncosanetshepiso@gmail.com",
+      "id": 3
     }
   ]
 }

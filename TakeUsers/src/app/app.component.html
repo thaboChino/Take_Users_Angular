@@ -2,6 +2,15 @@
   {{title}}
 </div>
 
-<app-createuser></app-createuser>
-<app-count-users></app-count-users>
-<app-veiw-users></app-veiw-users>
+<div id="display-board" style="padding-left: 10%; padding-right: 10%;">
+  <div style="width: 45%;">
+    <app-createuser></app-createuser>
+  </div>
+  <div style="width: 45%; margin-top: 4em;">
+    <app-count-users></app-count-users>
+  </div>
+</div>
+
+<div style="padding-left: 10%; padding-right: 5%;">
+  <app-veiw-users *ngIf="showViewUsers$ | async"></app-veiw-users>
+</div>

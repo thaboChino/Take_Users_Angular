@@ -9,3 +9,10 @@
     font-size: 75px;
     text-align: center;
     }
+
+    .btn{
+        padding: 0.5em;
+        background-color: rgb(238, 128, 128);
+        color: white;
+        border-radius: 2em;
+    }

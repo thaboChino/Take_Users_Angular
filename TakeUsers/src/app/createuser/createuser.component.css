@@ -4,7 +4,7 @@ p{
 }
 
 form{
-    width: 45%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -36,3 +36,4 @@ input{
     flex-direction: column;
     gap: 0.5em;
 }
+
