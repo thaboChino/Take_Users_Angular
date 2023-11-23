@@ -7,15 +7,16 @@ Simple Angular App with a Json serve Backeng. For practice.
 # navigate to the TakeUsers folder
 cd TakeUsers/
 # run ng serve to start the angular app
-ng serve --proxy-config proxy.config.json
+ng serve 
 ```
 
 # Backend Requirements
 ```
 NB: MAKE SURE YOU'RE NOT IN THE FRONTEND FOLDER 'TAKEUSER/'
 #Open new terminal in vscode
-#An if you are inside TakeUsers/ folder run:
+#If you are inside TakeUsers/ folder run:
 cd ..
+#ELse: continue
 
 # Install JSON Server Globally
 npm install -g json-server
